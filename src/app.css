@@ -1,0 +1,41 @@
+#register,
+#login,
+#otp,
+#settings {
+	max-width: 400px;
+	margin: 0 auto;
+}
+img {
+	width: 100%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+form label {
+	margin: 1rem 0;
+}
+form input {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+form button {
+	margin-top: 1rem;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: #eee;
+}
+p {
+	margin: 0;
+}
+.error {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
